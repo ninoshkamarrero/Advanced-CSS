@@ -1,0 +1,18 @@
+
+.productcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 500px 500px;
+    grid-gap: auto;
+    padding: 20px;
+
+
+
+}
+
+.product{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}

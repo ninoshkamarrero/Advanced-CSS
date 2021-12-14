@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+   
+  }
+  
+  td,tr {
+    padding: 23.5px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+  img{
+      width:30%;
+  }
+
+   .bottom:nth-child(even) {
+    background-color: red;
+   }
+   .bottom:nth-child(odd) {
+    background-color: white;

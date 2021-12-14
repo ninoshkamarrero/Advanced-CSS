@@ -1,0 +1,28 @@
+
+#rows {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+
+.blackFirst {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+    .blackFirst:nth-child(even) {
+        background-color: white;
+    }
+
+    .whiteFirst {
+        float: left;
+        height: 100px;
+        width: 100px;
+    }
+        .whiteFirst:nth-child(odd) {
+            background-color: white;
+        }
+
